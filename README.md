@@ -38,10 +38,10 @@ The source code for this assignment [student_average.c](https://github.com/mundu
 
 **Output for this assignment**
 
-![Image](Images/Screenshot 2025-03-20 205159.png)
-![Image](Images/Screenshot 2025-03-20 205447.png)
-![Image](Images/Screenshot 2025-03-20 205630.png)
-![Image](Images/Screenshot 2025-03-20 205647.png)
+![Image]("Images/Screenshot 2025-03-20 205159.png")
+![Image]("Images/Screenshot 2025-03-20 205447.png")
+![Image]("Images/Screenshot 2025-03-20 205630.png")
+![Image]("Images/Screenshot 2025-03-20 205647.png")
 
 
 ### Assignment Two
@@ -100,7 +100,7 @@ The source code for this assignment:[swap_numbers.c](https://github.com/munduku-
 
 **OUTPUT FOR THE SWAP CODE:**
 
-![Images](Images/Screenshot 2025-03-20 213638.png)
+![Images]("Images/Screenshot 2025-03-20 213638.png")
 
 ## Assignment Three
 
@@ -110,4 +110,4 @@ the source code for this assignment is:[traverse_array.c](https://github.com/mun
 
 **THE OUPUT FOR THE TRAVERSE CODE:**
 
-![Images](Images/Screenshot 2025-03-20 215634.png)
+![Images]("Images/Screenshot 2025-03-20 215634.png")
