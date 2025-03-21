@@ -114,3 +114,4 @@ the source code for this assignment is:https://github.com/munduku-coder/Data_str
 THE OUPUT FOR THE TRAVERSE CODE:
 
 ![alt text](image-2.png)
+![alt text](image-2.png)
