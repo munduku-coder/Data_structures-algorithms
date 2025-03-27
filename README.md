@@ -1,60 +1,113 @@
-include <stdio.h>
-#include <string.h>
+# Data-structures-and-algorithm-
 
-int main()
-{
-    char friends[4][50]; // array to store 4 names of friends
-    int i;
-    int trash;           // variable to store index of friend to be trashed
-    int j;
+## Group assignments
+This repository contains a collection of C programs that solve problems using data structures and algorithms.
 
-    printf("enter the names of four friends:\n");
-    for (i = 0; i < 4; i++)
-    {
-        printf("enter name of friend %d:  ", i + 1);
-        scanf("%s", friends[i]);
-    }
+## 1.Summary
 
-    printf("\n Your friends are: \n");
+This project addresses Bachelor of Science in Apllied Information Technology class assignment for week one, two, and three.
 
-    //displaying the names of friends
-    for (i = 0; i < 4; i++)
-    {
-        printf("friend %d: %s\n", i + 1, friends[i]);
-    }
+## 2.Contributing
 
-    printf("\nwhich friend is least important? (1-4):  \n");
-    scanf("%d", &i);
+### how to contribute
 
-    printf("%s is least important\n", friends[i - 1]);
+ - Fork this repository,
 
-    printf("\nwhich friend should be trashed?(1-4): \n");
+ - Create a new feature branch,
 
-    scanf("%d", &trash);
+ - Make your changes and commit,
 
-    printf("%s is trashed\n", friends[trash]);
+ - Push to your branch,
 
-    for (j = i; j < 4 - 1; j++)
-    {
+ - Open a pull request.
 
-        if (friends[i] == friends[trash])
-        {
+## 3.Group memebers
+1. **Munduku Innocent-012240321**
+2. **Naluwu Joline Esther-012240006**
+3. **Ssebunya David Francis-012240026**
+4. **Ayeerwot Hope-012240399**
 
-            strcpy(friends[j], friends[j + 1]); // copy next element to current element
-        }
+## 4.Assignments done
 
-        else
-        {
-            printf("Invalid input");
-        }
+### Assignment One 
 
-}
+This assignment calculates the average of a student`s marks in 3 subjects and from  tests that were assessed
 
-    printf("\n Your friends are: \n");
-    for (i = 0; i < 4 - 1; i++)
-    {
-        printf("friend %d: %s\n", i + 1, friends[i]);
-    }
+The source code for this assignment [student_average.c](https://github.com/munduku-coder/Data_structures-algorithms/blob/main/student_average.c)
 
-    return 0;
-}
+
+**Output for this assignment**
+
+![Image](Images/Screenshot%202025-03-20%20205159.png)
+![Image](Images/Screenshot%202025-03-20%20205447.png)
+![Image](Images/Screenshot%202025-03-20%20205630.png)
+![Image](Images/Screenshot%202025-03-20%20205647.png)
+
+
+### Assignment Two
+
+This assignment a user is promted for two numbers that should be swapped. 
+
+#### Algorithm for swapping the two numbers.
+
+1. Start
+2. Declare two integer variables m and j.
+3. Prompt the user to enter values for m and j.
+4. Read the input values and store them in m and j.
+5. Display the values of m and j before swapping.
+6. Call the swap function with the addresses of m and j.
+7. Inside the swap function:
+- Use a temporary variable temp to store the value of *a.
+- Assign the value of *b to *a.
+- Assign the value of temp to *b.
+
+8. Display the values of m and j after swapping.
+9. End.
+
+### Pseudocode
+
+BEGIN
+FUNCTION swap(a, b)
+
+   - DECLARE temp AS INTEGER
+   - temp = VALUE AT a
+   - VALUE AT a = VALUE AT b
+   - VALUE AT b = temp
+
+END FUNCTION
+
+MAIN
+
+    DECLARE m, j AS INTEGER
+
+    PRINT "Please enter any number m: "
+
+    READ m
+
+    PRINT "Please enter any number j: "
+
+    READ j
+
+    PRINT "Before swap: m =", m, " j =", j
+
+    CALL swap(ADDRESS of m, ADDRESS of j)
+
+    PRINT "After swap: m =", m, " j =", j
+END
+
+The source code for this assignment:[swap_numbers.c](https://github.com/munduku-coder/Data_structures-algorithms/blob/main/swap_numbers.c)
+
+
+**OUTPUT FOR THE SWAP CODE:**
+
+![Images](Images/Screenshot%202025-03-20%20213638.png)
+
+## Assignment Three
+
+In this assignment we traverse through an array
+
+the source code for this assignment is:[traverse_array.c](https://github.com/munduku-coder/Data_structures-algorithms/blob/main/traversing_array.c)
+
+**THE OUPUT FOR THE TRAVERSE CODE:**
+
+![Images](Images/Screenshot%202025-03-20%20215634.png)
