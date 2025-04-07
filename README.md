@@ -111,3 +111,27 @@ the source code for this assignment is:[traverse_array.c](https://github.com/mun
 **THE OUPUT FOR THE TRAVERSE CODE:**
 
 ![Images](Images/Screenshot%202025-03-20%20215634.png)
+
+## Assignment Four
+**The algorithm for inserting an element in a circular queue**
+
+step 1. if  rear modulus = front
+
+          write overflow
+
+          exit program
+
+step 2: if rear&&front = -1
+
+          set rear && front = 0
+
+step 3:else 
+          set (rear + 1)% size(size of the array)
+
+          [end if]
+
+step 4: set arr_num(rear) = num
+
+step 5: set itemcount ++
+
+step 6: exit program
