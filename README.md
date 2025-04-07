@@ -134,4 +134,4 @@ step 4: set arr_num(rear) = num
 
 step 5: set itemcount ++
 
-exit
+step 6: exit program
