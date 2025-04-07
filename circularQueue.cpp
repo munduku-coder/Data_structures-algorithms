@@ -1,5 +1,5 @@
 #include <iostream>
-#include <stdio.h>
+#include <cstdio.h>
 #define size 5
 
 using namespace std;
