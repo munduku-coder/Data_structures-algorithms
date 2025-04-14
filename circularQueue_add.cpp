@@ -43,6 +43,24 @@ CircularQueue()
             itemcount++;//it will count by adding one for each element that is added to the queue
         }
     }
+
+    void display()
+    {
+        cout << "The elements of the queue are as follows\n";
+        int i = front;
+        do
+        {
+            cout << arr_num[i] << " ";
+            cout << "\n";
+            i = (i + 1) % size;
+        } while (i != (rear + 1) % size);
+         /*as long as the front is not equal to the modulus of the rear, 
+        it will keep displaying the values*/
+    }
+    int count()
+    {
+        return (itemcount);
+       
+    }
     
-}
-  
+};
