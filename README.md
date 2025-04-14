@@ -130,8 +130,32 @@ step 3:else
 
           [end if]
 
-step 4: set arr_num(rear) = num
+step 4: set queue(rear) = num
 
 step 5: set itemcount ++
 
 step 6: exit program
+
+## Assignment Five
+**The algorithm for deleting an element in a circular queue**
+
+step 1: set x value
+step 2: if(front == -1 && rear == -1)
+    print "queue is empty"
+    exit
+
+step 3: else if (front == rear)
+    set x = Queue[front]
+    set Queue[front] = 0
+    front = -1
+    rear = -1
+    itemcount--
+    return x
+
+step 4: set x = Queue[front]
+    queue[front] = 0
+    front = (front + 1)% size
+    itemcount--
+    return x
+    
+step 5: Exit
